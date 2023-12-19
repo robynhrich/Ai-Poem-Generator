@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>AI Happy Feelings Poem Generator</title>
   </head>
@@ -27,13 +28,14 @@
             required
             autocomplete="off"
             class="instructions"
+            id="user-instructions"
           />
           <input type="submit" class="submit-button" />
         </form>
         <div class="poem" id="poem"></div>
       </main>
       <footer>
-        This project was coded by
+        This AI project was coded by
         <a href="https://github.com/robynhrich" target="_blank"
           >Robyn H Richardson</a
         >
